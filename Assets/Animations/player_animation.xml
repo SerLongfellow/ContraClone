@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<Animation>
+	<Info num_states="8"/>
+	
+	<State name="still_left" start_x="79" start_y="16" width="30" height="37" num_states="2" delta_t="0.6f" order="backward"/>
+	
+	<State name="still_right" start_x="140" start_y="16" width="30" height="37" num_states="2" delta_t="0.6f" order="forward"/>
+	
+	<State name="run_left" start_x="16" start_y="132" width="25" height="37" num_states="5" delta_t="0.1f" order="backward" />
+	
+	<State name="run_right" start_x="143" start_y="132" width="25" height="37" num_states="5" delta_t="0.1f" order="forward"/>
+	
+	<State name="jump_left" start_x="11" start_y="170" width="22" height="22" num_states="4" delta_t="0.1f" order="backward"/>
+	
+	<State name="jump_right" start_x="182" start_y="170" width="22" height="22" num_states="4" delta_t="0.1f" order="forward"/>
+	
+	<State name="crouch_left" start_x="99" start_y="172" width="38" height="20" num_states="1" delta_t="0.1f" order="backward"/>
+	
+	<State name="crouch_right" start_x="144" start_y="172" width="38" height="20" num_states="1" delta_t="0.1f" order="forward"/>
+</Animation>
